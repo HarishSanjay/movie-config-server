@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    password: H@r1sh12
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/microservices
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
